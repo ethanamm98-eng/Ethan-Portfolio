@@ -429,7 +429,7 @@ export const translations = {
     },
     contact: {
       eyebrow: "Contacto",
-      title: "Desarrollemos algo memorable",
+      title: "Desarrollemos un producto valioso y memorable",
       description:
         "Estoy disponible para colaborar y juntos crear experiencias digitales únicas e intencionadas. Si tienes una idea que quieres llevar a cabo, buscas mejorar un producto existente o quieres crear algo significativo en conjunto, me encantaría escucharte.",
       available: "Disponible para nuevas ideas",
