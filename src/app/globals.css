@@ -1,0 +1,174 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+  --background: #06070b;
+  --background-alt: #0b0d12;
+  --background-alt-2: #121419e8;
+  --foreground: #ffffff;
+  --muted: rgba(255, 255, 255, 0.68);
+  --border: rgba(255, 255, 255, 0.1);
+  --surface: rgba(255, 255, 255, 0.05);
+  --surface-strong: rgba(255, 255, 255, 0.08);
+  --nav-bg: rgba(0, 0, 0, 0.35);
+  --selection: rgba(255, 255, 255, 0.18);
+  --grid-line: rgba(255, 255, 255, 0.03);
+  --accent-soft: rgba(99, 102, 241, 0.14);
+  --card-shadow: 0 24px 70px rgba(0, 0, 0, 0.24);
+  --icon-filter: invert(1);
+  --hero-card-champagne: linear-gradient(145deg, rgba(184, 136, 53, 0.2), rgba(255, 255, 255, 0.065) 58%, rgba(255, 255, 255, 0.035));
+  --hero-card-platinum: linear-gradient(145deg, rgba(148, 163, 184, 0.17), rgba(255, 255, 255, 0.055) 62%, rgba(255, 255, 255, 0.025));
+  --hero-card-bronze: linear-gradient(145deg, rgba(168, 111, 82, 0.2), rgba(255, 255, 255, 0.055) 60%, rgba(255, 255, 255, 0.025));
+  --hero-accent: #d0aa67;
+  --testimonial-card-bg: rgba(18, 20, 25, 0.91);
+  --testimonial-card-fg: #ffffff;
+  --testimonial-card-muted: rgba(255, 255, 255, 0.66);
+  --testimonial-card-line: rgba(255, 255, 255, 0.12);
+}
+
+html[data-theme="light"] {
+  color-scheme: light;
+  --background: #f6f7fb;
+  --background-alt: #eef1f7;
+  --foreground: #0d1220;
+  --muted: rgba(13, 18, 32, 0.68);
+  --border: rgba(13, 18, 32, 0.1);
+  --surface: rgba(255, 255, 255, 0.72);
+  --surface-strong: rgba(255, 255, 255, 0.92);
+  --nav-bg: rgba(255, 255, 255, 0.72);
+  --selection: rgba(13, 18, 32, 0.14);
+  --grid-line: rgba(13, 18, 32, 0.05);
+  --accent-soft: rgba(79, 70, 229, 0.1);
+  --card-shadow: 0 24px 70px rgba(30, 41, 59, 0.1);
+  --icon-filter: none;
+  --hero-card-champagne: linear-gradient(145deg, rgba(255, 253, 247, 0.98), rgba(235, 220, 184, 0.86));
+  --hero-card-platinum: linear-gradient(145deg, rgba(255, 255, 255, 0.98), rgba(218, 224, 232, 0.9));
+  --hero-card-bronze: linear-gradient(145deg, rgba(255, 252, 248, 0.98), rgba(222, 188, 169, 0.86));
+  --hero-accent: #9a6d2e;
+  --testimonial-card-bg: #ffffff;
+  --testimonial-card-fg: #0d1220;
+  --testimonial-card-muted: rgba(13, 18, 32, 0.66);
+  --testimonial-card-line: rgba(13, 18, 32, 0.12);
+}
+
+.testimonial-card {
+  background: var(--testimonial-card-bg);
+  color: var(--testimonial-card-fg);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.35s ease, color 0.35s ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: var(--selection);
+}
+
+.theme-icon {
+  filter: var(--icon-filter);
+}
+
+.logo-invert-on-dark {
+  filter: invert(1);
+}
+
+.logo-invert-on-light {
+  filter: none;
+}
+
+.hero-outline-name {
+  color: color-mix(in srgb, var(--foreground) 3%, transparent);
+  -webkit-text-stroke: 1.15px var(--foreground);
+  text-shadow: 2px 2px 0 color-mix(in srgb, var(--hero-accent) 28%, transparent);
+  text-wrap: balance;
+}
+
+.hero-statement {
+  text-wrap: balance;
+}
+
+.resume-outline-name {
+  color: color-mix(in srgb, var(--foreground) 3%, transparent);
+  -webkit-text-stroke: 1.2px var(--foreground);
+  text-shadow: 3px 3px 0 color-mix(in srgb, #bd9143 28%, transparent);
+}
+
+html[data-theme="light"] .logo-invert-on-dark {
+  filter: none;
+}
+
+html[data-theme="light"] .logo-invert-on-light {
+  filter: invert(1);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-image: linear-gradient(var(--grid-line) 1px, transparent 1px),
+    linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+  background-size: 56px 56px;
+  mask-image: radial-gradient(circle at center, black 20%, transparent 80%);
+  opacity: 0.24;
+}
+
+@media (max-width: 639px) {
+  body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 9998;
+    pointer-events: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='168' height='112' viewBox='0 0 168 112'%3E%3Cg fill='%23b99555' fill-opacity='.7' font-family='monospace' font-size='8' letter-spacing='7'%3E%3Ctext x='4' y='15'%3E0 1 0 0 1 1%3C/text%3E%3Ctext x='18' y='43'%3E1 0 1 1 0 0%3C/text%3E%3Ctext x='4' y='71'%3E1 1 0 1 0 1%3C/text%3E%3Ctext x='18' y='99'%3E0 0 1 0 1 0%3C/text%3E%3C/g%3E%3C/svg%3E");
+    background-size: 168px 112px;
+    opacity: 0.055;
+    mask-image: linear-gradient(to bottom, transparent 0%, black 12%, black 88%, transparent 100%);
+  }
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+@media print {
+  @page { size: auto; margin: 0.35in; }
+  html[data-theme], body { background: #fff !important; color: #111 !important; }
+  body::before, body::after, .resume-actions, .resume-page > header, .resume-page > footer { display: none !important; }
+  .resume-sheet { margin: 0 !important; border: 1px solid #d4d4d4 !important; border-radius: 0 !important; box-shadow: none !important; background: #fff !important; }
+  .resume-sheet * { --foreground: #111; --muted: #505050; --surface: #fff; --background: #fff; --border: #d4d4d4; }
+  .resume-sheet article { break-inside: avoid; }
+}
+
+@keyframes marquee-left {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
