@@ -180,7 +180,7 @@ export const translations = {
       eyebrow: "Contact",
       title: "Let’s create something thoughtful, polished, and memorable.",
       description:
-        "I’m open to front-end, UI engineering, and design-focused opportunities where craft, clarity, and user experience matter.",
+        "I’m available to collaborate and create unique, intentional digital experiences together. If you have an idea you’d like to bring to life, are looking to improve an existing product, or want to create something meaningful together, I’d love to hear from you.",
       available: "Available for new ideas",
       name: "Name",
       email: "Email",
@@ -429,9 +429,9 @@ export const translations = {
     },
     contact: {
       eyebrow: "Contacto",
-      title: "Creemos algo bien pensado, pulido y memorable.",
+      title: "Desarrollemos algo memorable",
       description:
-        "Estoy disponible para oportunidades de front-end, ingeniería UI y diseño donde importen el detalle, la claridad y la experiencia de usuario.",
+        "Estoy disponible para colaborar y juntos crear experiencias digitales únicas e intencionadas. Si tienes una idea que quieres llevar a cabo, buscas mejorar un producto existente o quieres crear algo significativo en conjunto, me encantaría escucharte.",
       available: "Disponible para nuevas ideas",
       name: "Nombre",
       email: "Correo electrónico",
