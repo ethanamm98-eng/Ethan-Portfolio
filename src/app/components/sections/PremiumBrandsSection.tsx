@@ -213,7 +213,7 @@ export default function PremiumBrandsSection() {
                     <h3 className="mt-2 text-lg font-semibold leading-tight tracking-[-0.03em] sm:text-xl">
                       {client.name}
                     </h3>
-                    <span className="mt-3 inline-flex items-center gap-1.5 text-[10px] text-(--muted) opacity-0 transition group-hover:opacity-100">
+                    <span className="mt-3 inline-flex items-center gap-1.5 text-[10px]">
                       {copy.created.visit}
                       <ArrowUpRight size={11} />
                     </span>
