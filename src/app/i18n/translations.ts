@@ -79,7 +79,7 @@ export const translations = {
       title:
         "Interfaces engineered with polish, clarity, and strong visual direction.",
       description:
-        "A curated look at projects where product thinking, motion, and front-end execution came together to create better experiences.",
+        "A curated look at projects where product thinking, motion, front-end and back-end development, and database design came together to create better experiences.",
       previousSlide: "Previous project image",
       nextSlide: "Next project image",
       slide: "Project image",
@@ -90,7 +90,7 @@ export const translations = {
       eyebrow: "About",
       title:
         "I build thoughtful digital experiences—and stay curious beyond the screen.",
-      greeting: "Hi, I’m Ethan Angelo.",
+      greeting: "Hi, I’m Ethan Angelo",
       p1: "I’m a creative web application designer and developer who genuinely enjoys transforming complex ideas and tedious everyday tasks into simple, elegant, automated, and human-centered digital experiences. I care deeply about the details, but I also value listening, collaborating transparently, and making every stage of the process feel clear and enjoyable. Beyond creating visually appealing applications, my goal is to build meaningful solutions that simplify your everyday life and make a positive difference.",
       p2: "When I’m away from my computer, you’ll probably find me listening to music, hiking to a river, enjoying the beach, working out at the gym, spending time with friends, discovering new restaurants, or creating my next experience. Those moments keep me active, curious, and open to new perspectives—and they often become the inspiration behind my ideas and my work.",
     },
@@ -98,7 +98,7 @@ export const translations = {
       eyebrow: "Ethan Angelo's Skills",
       title: "Design fluency backed by strong front-end execution.",
       description:
-        "I care as much about how an interface feels as how well it is structured and shipped.",
+        "I care as much about how an interface makes you feel as I do about how well it’s built and the difference it makes in your everyday life.",
       knowledgeBase: "Knowledge Base",
       groups: [
         {
@@ -260,7 +260,7 @@ export const translations = {
       process: "Proceso",
       testimonials: "Testimonios",
       contact: "Contacto",
-      talk: "Hablemos",
+      talk: "Colaboremos",
       resume: "Resumé",
       menu: "Abrir navegación",
       closeMenu: "Cerrar navegación",
@@ -329,7 +329,7 @@ export const translations = {
       title:
         "Interfaces desarrolladas con detalle, claridad y una sólida dirección visual.",
       description:
-        "Una selección de proyectos donde el pensamiento de producto, el movimiento y la ejecución front-end se unieron para crear mejores experiencias.",
+        "Una selección de proyectos donde la visión de producto, las animaciones, el desarrollo front-end y back-end, y el diseño de bases de datos se unieron para crear mejores experiencias.",
       previousSlide: "Imagen anterior del proyecto",
       nextSlide: "Próxima imagen del proyecto",
       slide: "Imagen del proyecto",
@@ -339,16 +339,15 @@ export const translations = {
     about: {
       eyebrow: "Sobre mí",
       title:
-        "Creo experiencias digitales con intención y mantengo la curiosidad más allá de la pantalla.",
-      greeting: "Hola, soy Ethan Angelo.",
+        "Creo experiencias digitales intencionales y mantengo la curiosidad mas allá de mis creaciones digitales.",
+      greeting: "Hola, soy Ethan Angelo",
       p1: "Soy diseñador y desarrollador creativo de aplicaciones web, y disfruto genuinamente transformar ideas complejas y tareas cotidianas tediosas en experiencias digitales sencillas, elegantes, automatizadas y humanas. Me apasionan los detalles, pero también escuchar, colaborar con transparencia y hacer que cada etapa del proceso sea clara y agradable. Más que crear aplicaciones visualmente atractivas, busco desarrollar soluciones que simplifiquen tu día a día y generen un impacto positivo en tu vida.",
       p2: "Cuando no estoy frente a la computadora, probablemente estoy escuchando música, haciendo hiking hacia algún río, disfrutando de la playa, entrenando en el gimnasio, compartiendo con mis amistades, descubriendo nuevos restaurantes o creando mi próxima experiencia. Esos momentos me mantienen activo, curioso y abierto a nuevas perspectivas, y muchas veces se convierten en la inspiración detrás de mis ideas y mi trabajo.",
     },
     skills: {
       eyebrow: "Destrezas de Ethan",
       title: "Fluidez en diseño respaldada por una sólida ejecución front-end.",
-      description:
-        "Me importa tanto cómo se siente una interfaz como la calidad de su estructura y entrega.",
+      description: "Me importa tanto cómo te hace sentir una interfaz como la solidez de su estructura y el impacto que tiene en tu día a día.",
       knowledgeBase: "Base de conocimientos",
       groups: [
         {
@@ -413,7 +412,7 @@ export const translations = {
         {
           title: "Diseñar",
           description:
-            "Dar forma a la interfaz con una jerarquía sólida, una UI elegante e interacciones cuidadas.",
+            "Dar forma a la interfaz con una jerarquía sólida, una UI elegante e interacciones bien intencionadas y ejecutadas.",
         },
         {
           title: "Desarrollar",

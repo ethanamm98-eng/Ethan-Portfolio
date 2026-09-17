@@ -67,16 +67,36 @@ export default function AboutSection() {
               {/* <p className="text-[11px] font-medium uppercase tracking-[0.3em] text-[#b98738]">
                 {copy.about.eyebrow}
               </p> */}
-              <h3 className="mt-4 text-3xl font-semibold tracking-[-0.04em] text-(--foreground) sm:text-4xl">
-                {copy.about.greeting}
+              <h3 className="mt-4 flex flex-wrap items-center gap-3 text-3xl font-semibold tracking-[-0.04em] text-(--foreground) sm:text-4xl">
+                <span>{copy.about.greeting}</span>
+                {/* <svg
+                  aria-hidden="true"
+                  viewBox="0 0 48 48"
+                  fill="none"
+                  className="h-9 w-9 shrink-0 -rotate-12 text-[#d8a947] sm:h-10 sm:w-10"
+                >
+                  <path
+                    d="M17 25V10a3 3 0 0 1 6 0v11-14a3 3 0 0 1 6 0v14-11a3 3 0 0 1 6 0v15-9a3 3 0 0 1 6 0v12c0 9-6 15-15 15h-3c-6 0-10-3-13-8l-5-8a3.5 3.5 0 0 1 6-3.5l6 7"
+                    fill="currentColor"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinejoin="round"
+                  />
+                  <path
+                    d="M8 8 5 5M12 5V2M5 13H2"
+                    stroke="currentColor"
+                    strokeWidth="2.5"
+                    strokeLinecap="round"
+                  />
+                </svg> */}
               </h3>
-              <p className="mt-6 text-base leading-8 text-(--muted)">
+              <p className="mt-6 text-base leading-8 text-(--muted) text-justify">
                 {copy.about.p1}
               </p>
 
               <div className="my-7 h-px bg-linear-to-r from-(--border) via-[#d8ae52]/35 to-transparent" />
 
-              <p className="text-base leading-8 text-(--muted)">
+              <p className="text-base leading-8 text-(--muted) text-justify">
                 {copy.about.p2}
               </p>
 

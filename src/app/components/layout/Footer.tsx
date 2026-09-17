@@ -7,12 +7,12 @@ import { useLanguage } from "../../context/LanguageContext";
 const socials = [
   {
     label: "GitHub",
-    href: "https://github.com",
+    href: "https://github.com/ethanamm98-eng",
     icon: "/projects/github-142-svgrepo-com.svg",
   },
   {
     label: "LinkedIn",
-    href: "https://www.linkedin.com",
+    href: "https://www.linkedin.com/in/ethan-mercado-software",
     icon: "/projects/linkedin-svgrepo-com.svg",
   },
 ];

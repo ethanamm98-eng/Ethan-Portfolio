@@ -1,12 +1,13 @@
 "use client";
-
+import Image from "next/image"
 import Link from "next/link";
 import { AnimatePresence, motion } from "framer-motion";
-import { ArrowUpRight, FileText, Menu, X } from "lucide-react";
+import { ArrowUpRight, DockIcon, FileText, LetterTextIcon, Menu, MessageCircle, X } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
 import ThemeToggle from "../ui/ThemeToggle";
 import LanguageToggle from "../ui/LanguageToggle";
 import { useLanguage } from "../../context/LanguageContext";
+
 
 export default function Navbar() {
   const { copy } = useLanguage();
@@ -95,13 +96,7 @@ export default function Navbar() {
           <div className="flex items-center gap-2 sm:gap-3">
             <LanguageToggle />
             <ThemeToggle />
-            <Link
-              href="/#contact"
-              className="hidden rounded-full border border-(--border) bg-(--foreground) px-4 py-2 text-sm font-medium text-(--background) transition 
-              hover:scale-[1.02] lg:inline-flex"
-            >
-              {copy.nav.talk}
-            </Link>
+
             <Link
               href="/resume"
               aria-label={copy.nav.resume}
@@ -110,7 +105,17 @@ export default function Navbar() {
             sm:inline-flex md:h-auto md:w-auto md:px-4 md:py-2"
             >
               <FileText size={16} className="md:hidden" />
-              <span className="hidden md:inline">{copy.nav.resume}</span>
+              <span className="hidden md:inline"><FileText className="w-4 h-4 mr-1.5 inline my-auto relative bottom-[0.9px]" />{copy.nav.resume}</span>
+            </Link>
+
+            <Link
+              href="/#contact"
+              className="hidden rounded-full border border-(--border) bg-(--foreground) px-4 py-2 text-sm font-medium text-(--background) transition 
+              hover:scale-[1.02] lg:inline-flex"
+            >
+              <MessageCircle className="w-4 h-4 mr-1.5" />
+              {copy.nav.talk}
+              
             </Link>
             <button
               ref={menuButtonRef}
