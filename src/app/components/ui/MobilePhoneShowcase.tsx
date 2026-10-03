@@ -60,7 +60,7 @@ export default function MobilePhoneShowcase() {
           <div className="absolute inset-x-3 bottom-3 z-20 flex h-8 items-center gap-2 rounded-full border border-white/30 bg-black/55 px-3 text-white shadow-lg backdrop-blur-md">
             <LockKeyhole size={9} />
             <span className="min-w-0 flex-1 truncate text-[8px] tracking-wide">
-              ethanangelo.dev/{project.title.toLowerCase().replaceAll(" ", "-")}
+              ethan-market.com/{project.title.toLowerCase().replaceAll(" ", "-")}
             </span>
           </div>
           <span className="pointer-events-none absolute inset-y-10 right-2 z-20 w-px bg-linear-to-b from-transparent via-white/25 to-transparent" />

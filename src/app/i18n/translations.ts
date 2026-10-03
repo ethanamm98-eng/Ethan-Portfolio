@@ -45,7 +45,7 @@ export const translations = {
       ],
     },
     browser: {
-      path: "ethanangelo.dev / featured work",
+      path: "ethan-market.com / featured work",
       live: "Live",
       show: "Show",
     },
@@ -295,7 +295,7 @@ export const translations = {
       ],
     },
     browser: {
-      path: "ethanangelo.dev / proyectos destacados",
+      path: "ethan-market.com / proyectos destacados",
       live: "En vivo",
       show: "Mostrar",
     },
