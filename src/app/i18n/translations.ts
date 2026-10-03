@@ -339,7 +339,7 @@ export const translations = {
     about: {
       eyebrow: "Sobre mí",
       title:
-        "Creo experiencias digitales intencionales y mantengo la curiosidad mas allá de mis creaciones digitales.",
+        "Desarrollo experiencias digitales creativas, intencionales y accesibles",
       greeting: "Hola, soy Ethan Angelo",
       p1: "Soy diseñador y desarrollador creativo de aplicaciones web, y disfruto genuinamente transformar ideas complejas y tareas cotidianas tediosas en experiencias digitales sencillas, elegantes, automatizadas y humanas. Me apasionan los detalles, pero también escuchar, colaborar con transparencia y hacer que cada etapa del proceso sea clara y agradable. Más que crear aplicaciones visualmente atractivas, busco desarrollar soluciones que simplifiquen tu día a día y generen un impacto positivo en tu vida.",
       p2: "Cuando no estoy frente a la computadora, probablemente estoy escuchando música, haciendo hiking hacia algún río, disfrutando de la playa, entrenando en el gimnasio, compartiendo con mis amistades, descubriendo nuevos restaurantes o creando mi próxima experiencia. Esos momentos me mantienen activo, curioso y abierto a nuevas perspectivas, y muchas veces se convierten en la inspiración detrás de mis ideas y mi trabajo.",
