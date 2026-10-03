@@ -63,7 +63,7 @@ export const projects: Project[] = [
     title: "Casino del Mar",
     category: "CMS / Internal Tools",
     description:
-      "A responsive employee platform to manage the casino player transactions, tickets, and reporting, turning complex service activity into fast triage, clear ownership, and decision-ready operational insights.",
+      "A responsive internal platform that brings player transactions, ticket management, and reporting into one organized workspace, helping Casino del Mar staff track activity and navigate daily operations with greater clarity.",
     year: "2027",
     stack: [
       "React",
@@ -87,7 +87,7 @@ export const projects: Project[] = [
     title: "Synergy IT LLC",
     category: "Corporate Website",
     description:
-      "A polished digital presence for an IT consultancy, designed to communicate technical expertise, clarify service offerings, and turn interest into qualified conversations.",
+      "A modern corporate website that showcases Synergy’s technology services, team, and client relationships through clear content and intuitive navigation, helping businesses understand its expertise and connect with the right solutions.",
     year: "2025",
     stack: ["React", "Typescript", "Next.js", "Tailwind", "SEO", "Sanity"],
     image: "/projects/synergy.png",

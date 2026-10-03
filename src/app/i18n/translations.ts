@@ -89,7 +89,7 @@ export const translations = {
     about: {
       eyebrow: "About",
       title:
-        "I build thoughtful digital experiences—and stay curious beyond the screen.",
+        "I build thoughtful and accessible digital experiences",
       greeting: "Hi, I’m Ethan Angelo",
       p1: "I’m a creative web application designer and developer who genuinely enjoys transforming complex ideas and tedious everyday tasks into simple, elegant, automated, and human-centered digital experiences. I care deeply about the details, but I also value listening, collaborating transparently, and making every stage of the process feel clear and enjoyable. Beyond creating visually appealing applications, my goal is to build meaningful solutions that simplify your everyday life and make a positive difference.",
       p2: "When I’m away from my computer, you’ll probably find me listening to music, hiking to a river, enjoying the beach, working out at the gym, spending time with friends, discovering new restaurants, or creating my next experience. Those moments keep me active, curious, and open to new perspectives—and they often become the inspiration behind my ideas and my work.",
@@ -215,13 +215,13 @@ export const translations = {
         title: "Casino del Mar",
         category: "Internal Tools",
         description:
-          "A responsive employee platform to manage the casino player transactions, tickets, and reporting, turning complex service activity into fast triage, clear ownership, and decision-ready operational insights.",
+          "A responsive internal platform that brings player transactions, ticket management, and reporting into one organized workspace, helping Casino del Mar staff track activity and navigate daily operations with greater clarity.",
       },
       {
         title: "Synergy IT LLC",
         category: "Corporate Experience",
         description:
-          "A polished digital presence that communicates technical expertise, clarifies service offerings, and turns interest into qualified conversations.",
+          "A modern corporate website that showcases Synergy’s technology services, team, and client relationships through clear content and intuitive navigation, helping businesses understand its expertise and connect with the right solutions.",
       },
       {
         title: "Paulson Offices",
@@ -465,13 +465,13 @@ export const translations = {
         title: "Casino del Mar",
         category: "Herramientas internas",
         description:
-          "Un espacio responsivo que convierte operaciones complejas en atención rápida, responsabilidades claras e información lista para decidir.",
+          "Una plataforma interna para dispositivos desktop y móviles que reúne las transacciones de jugadores, la gestión de tickets y los informes en un espacio organizado, facilitando al personal de Casino del Mar el seguimiento de movimientos y la gestión de sus operaciones diarias.",
       },
       {
         title: "Synergy IT LLC",
         category: "Experiencia corporativa",
         description:
-          "Una presencia digital pulida que comunica experiencia técnica, presenta los servicios con claridad y convierte interés en conversaciones de valor.",
+          "Un sitio web corporativo moderno que presenta los servicios tecnológicos, el equipo y los clientes de Synergy mediante contenido claro y una navegación intuitiva, ayudando a las empresas a conocer su experiencia y encontrar soluciones para sus necesidades.",
       },
       {
         title: "Paulson Offices",
